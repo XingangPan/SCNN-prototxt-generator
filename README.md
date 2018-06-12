@@ -7,7 +7,7 @@ This script is for generating [Spatial CNN](https://github.com/XingangPan/SCNN) 
 '--height', '--width', and '--channel' are number of rows, columns, and channels of the last feature maps respectively.
 - Copy the text in the generated SCNN.prototxt, and paste it to the right position in your original model prototxt file (the one that you want to add Spatial CNN).
 - Don't forget to modify the 'bottom' of the next layer to "SCNN".
-- Example: 
+- Example:   
 Original prototxt file: examples/resnet101.prototxt  
 Generated SCNN text: examples/SCNN.prototxt  
 New prototxt file with SCNN: examples/resnet101_SCNN.prototxt  
@@ -17,7 +17,7 @@ You can visualize the network architecture at http://ethereon.github.io/netscope
 ### About Spatial CNN (SCNN)
 ![SCNN](examples/SCNN.png)
 - Spatial CNN enables explicit and effective spatial information propagation between neurons in the same layer of a CNN. 
-- For more details, please refer to [our paper](https://arxiv.org/abs/1712.06080)
+- For more details, please refer to [our paper](https://arxiv.org/abs/1712.06080).
 
 ### Practical Concerns
 - In practice I initialize SCNN layers with variance sqrt(5) times smaller than the MSRA initialization for numarical stability concern.
