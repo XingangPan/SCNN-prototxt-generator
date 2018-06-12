@@ -29,13 +29,17 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-def generate_conv_layer_no_bias(name, bottom, top, num_output, kernel_h, kernel_w, pad_h, pad_w, std=0.01):
+def generate_conv_layer_no_bias(name, bottom, top, weight, num_output, kernel_h, kernel_w, pad_h, pad_w, std=0.01):
     conv_layer_str = '''layer {
   name: "%s"
   bottom: "%s"
   top: "%s"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "%s"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: %d
     kernel_h: %d
@@ -46,7 +50,7 @@ def generate_conv_layer_no_bias(name, bottom, top, num_output, kernel_h, kernel_
     bias_term: false
     weight_filler { type: "gaussian" std: %.5f }
   }
-}\n'''%(name, bottom, top, num_output, kernel_h, kernel_w, pad_h, pad_w, std)
+}\n'''%(name, bottom, top, weight, num_output, kernel_h, kernel_w, pad_h, pad_w, std)
     return conv_layer_str
 
 def generate_activation_layer(name, bottom, act_type="ReLU"):
@@ -116,7 +120,7 @@ def generate_SCNN(args):
         top = 'SCNN_D_' + str(i) + '/message'
         target = 'slice1_' + str(i + 1)
         summation = 'SCNN_D_' + str(i + 1)
-        network_str += generate_conv_layer_no_bias(name, bottom, top, args.channel, 1, args.kw, 0, (args.kw-1)/2, std)
+        network_str += generate_conv_layer_no_bias(name, bottom, top, 'SCNN_D_w', args.channel, 1, args.kw, 0, (args.kw-1)/2, std)
         network_str += generate_activation_layer(name+'/relu', top)
         network_str += generate_eltwise_layer(name+'/sum', top, target, summation)
 
@@ -133,7 +137,7 @@ def generate_SCNN(args):
         else:
             target = 'SCNN_D_' + str(i - 1)
         summation = 'SCNN_U_' + str(i - 1)
-        network_str += generate_conv_layer_no_bias(name, bottom, top, args.channel, 1, args.kw, 0, (args.kw-1)/2, std)
+        network_str += generate_conv_layer_no_bias(name, bottom, top, 'SCNN_U_w', args.channel, 1, args.kw, 0, (args.kw-1)/2, std)
         network_str += generate_activation_layer(name+'/relu', top)
         network_str += generate_eltwise_layer(name+'/sum', top, target, summation)
 
@@ -150,7 +154,7 @@ def generate_SCNN(args):
         top = 'SCNN_R_' + str(i) + '/message'
         target = 'slice2_' + str(i + 1)
         summation = 'SCNN_R_' + str(i + 1)
-        network_str += generate_conv_layer_no_bias(name, bottom, top, args.channel, args.kw, 1, (args.kw-1)/2, 0, std)
+        network_str += generate_conv_layer_no_bias(name, bottom, top, 'SCNN_R_w', args.channel, args.kw, 1, (args.kw-1)/2, 0, std)
         network_str += generate_activation_layer(name+'/relu', top)
         network_str += generate_eltwise_layer(name+'/sum', top, target, summation)
 
@@ -167,7 +171,7 @@ def generate_SCNN(args):
         else:
             target = 'SCNN_R_' + str(i - 1)
         summation = 'SCNN_L_' + str(i - 1)
-        network_str += generate_conv_layer_no_bias(name, bottom, top, args.channel, args.kw, 1, (args.kw-1)/2, 0, std)
+        network_str += generate_conv_layer_no_bias(name, bottom, top, 'SCNN_L_w', args.channel, args.kw, 1, (args.kw-1)/2, 0, std)
         network_str += generate_activation_layer(name+'/relu', top)
         network_str += generate_eltwise_layer(name+'/sum', top, target, summation)
 

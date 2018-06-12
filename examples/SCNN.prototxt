@@ -102,7 +102,11 @@ layer {
   bottom: "slice1_1"
   top: "SCNN_D_1/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -135,7 +139,11 @@ layer {
   bottom: "SCNN_D_2"
   top: "SCNN_D_2/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -168,7 +176,11 @@ layer {
   bottom: "SCNN_D_3"
   top: "SCNN_D_3/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -201,7 +213,11 @@ layer {
   bottom: "SCNN_D_4"
   top: "SCNN_D_4/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -234,7 +250,11 @@ layer {
   bottom: "SCNN_D_5"
   top: "SCNN_D_5/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -267,7 +287,11 @@ layer {
   bottom: "SCNN_D_6"
   top: "SCNN_D_6/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -300,7 +324,11 @@ layer {
   bottom: "SCNN_D_7"
   top: "SCNN_D_7/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -333,7 +361,11 @@ layer {
   bottom: "SCNN_D_8"
   top: "SCNN_D_8/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -366,7 +398,11 @@ layer {
   bottom: "SCNN_D_9"
   top: "SCNN_D_9/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -399,7 +435,11 @@ layer {
   bottom: "SCNN_D_10"
   top: "SCNN_D_10/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -432,7 +472,11 @@ layer {
   bottom: "SCNN_D_11"
   top: "SCNN_D_11/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -465,7 +509,11 @@ layer {
   bottom: "SCNN_D_12"
   top: "SCNN_D_12/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -498,7 +546,11 @@ layer {
   bottom: "SCNN_D_13"
   top: "SCNN_D_13/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -531,7 +583,11 @@ layer {
   bottom: "SCNN_D_14"
   top: "SCNN_D_14/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -564,7 +620,11 @@ layer {
   bottom: "SCNN_D_15"
   top: "SCNN_D_15/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -597,7 +657,11 @@ layer {
   bottom: "SCNN_D_16"
   top: "SCNN_D_16/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -630,7 +694,11 @@ layer {
   bottom: "SCNN_D_17"
   top: "SCNN_D_17/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -663,7 +731,11 @@ layer {
   bottom: "SCNN_D_18"
   top: "SCNN_D_18/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -696,7 +768,11 @@ layer {
   bottom: "SCNN_D_19"
   top: "SCNN_D_19/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -729,7 +805,11 @@ layer {
   bottom: "SCNN_D_20"
   top: "SCNN_D_20/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -762,7 +842,11 @@ layer {
   bottom: "SCNN_D_21"
   top: "SCNN_D_21/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -795,7 +879,11 @@ layer {
   bottom: "SCNN_D_22"
   top: "SCNN_D_22/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -828,7 +916,11 @@ layer {
   bottom: "SCNN_D_23"
   top: "SCNN_D_23/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -861,7 +953,11 @@ layer {
   bottom: "SCNN_D_24"
   top: "SCNN_D_24/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -894,7 +990,11 @@ layer {
   bottom: "SCNN_D_25"
   top: "SCNN_D_25/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -927,7 +1027,11 @@ layer {
   bottom: "SCNN_D_26"
   top: "SCNN_D_26/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -960,7 +1064,11 @@ layer {
   bottom: "SCNN_D_27"
   top: "SCNN_D_27/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -993,7 +1101,11 @@ layer {
   bottom: "SCNN_D_28"
   top: "SCNN_D_28/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1026,7 +1138,11 @@ layer {
   bottom: "SCNN_D_29"
   top: "SCNN_D_29/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1059,7 +1175,11 @@ layer {
   bottom: "SCNN_D_30"
   top: "SCNN_D_30/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1092,7 +1212,11 @@ layer {
   bottom: "SCNN_D_31"
   top: "SCNN_D_31/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1125,7 +1249,11 @@ layer {
   bottom: "SCNN_D_32"
   top: "SCNN_D_32/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1158,7 +1286,11 @@ layer {
   bottom: "SCNN_D_33"
   top: "SCNN_D_33/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1191,7 +1323,11 @@ layer {
   bottom: "SCNN_D_34"
   top: "SCNN_D_34/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1224,7 +1360,11 @@ layer {
   bottom: "SCNN_D_35"
   top: "SCNN_D_35/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1257,7 +1397,11 @@ layer {
   bottom: "SCNN_D_36"
   top: "SCNN_D_36/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1290,7 +1434,11 @@ layer {
   bottom: "SCNN_D_37"
   top: "SCNN_D_37/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1323,7 +1471,11 @@ layer {
   bottom: "SCNN_D_38"
   top: "SCNN_D_38/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1356,7 +1508,11 @@ layer {
   bottom: "SCNN_D_39"
   top: "SCNN_D_39/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1389,7 +1545,11 @@ layer {
   bottom: "SCNN_D_40"
   top: "SCNN_D_40/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1422,7 +1582,11 @@ layer {
   bottom: "SCNN_D_41"
   top: "SCNN_D_41/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1455,7 +1619,11 @@ layer {
   bottom: "SCNN_D_42"
   top: "SCNN_D_42/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1488,7 +1656,11 @@ layer {
   bottom: "SCNN_D_43"
   top: "SCNN_D_43/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1521,7 +1693,11 @@ layer {
   bottom: "SCNN_D_44"
   top: "SCNN_D_44/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1554,7 +1730,11 @@ layer {
   bottom: "SCNN_D_45"
   top: "SCNN_D_45/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_D_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1587,7 +1767,11 @@ layer {
   bottom: "SCNN_D_46"
   top: "SCNN_U_46/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1620,7 +1804,11 @@ layer {
   bottom: "SCNN_U_45"
   top: "SCNN_U_45/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1653,7 +1841,11 @@ layer {
   bottom: "SCNN_U_44"
   top: "SCNN_U_44/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1686,7 +1878,11 @@ layer {
   bottom: "SCNN_U_43"
   top: "SCNN_U_43/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1719,7 +1915,11 @@ layer {
   bottom: "SCNN_U_42"
   top: "SCNN_U_42/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1752,7 +1952,11 @@ layer {
   bottom: "SCNN_U_41"
   top: "SCNN_U_41/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1785,7 +1989,11 @@ layer {
   bottom: "SCNN_U_40"
   top: "SCNN_U_40/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1818,7 +2026,11 @@ layer {
   bottom: "SCNN_U_39"
   top: "SCNN_U_39/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1851,7 +2063,11 @@ layer {
   bottom: "SCNN_U_38"
   top: "SCNN_U_38/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1884,7 +2100,11 @@ layer {
   bottom: "SCNN_U_37"
   top: "SCNN_U_37/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1917,7 +2137,11 @@ layer {
   bottom: "SCNN_U_36"
   top: "SCNN_U_36/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1950,7 +2174,11 @@ layer {
   bottom: "SCNN_U_35"
   top: "SCNN_U_35/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -1983,7 +2211,11 @@ layer {
   bottom: "SCNN_U_34"
   top: "SCNN_U_34/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2016,7 +2248,11 @@ layer {
   bottom: "SCNN_U_33"
   top: "SCNN_U_33/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2049,7 +2285,11 @@ layer {
   bottom: "SCNN_U_32"
   top: "SCNN_U_32/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2082,7 +2322,11 @@ layer {
   bottom: "SCNN_U_31"
   top: "SCNN_U_31/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2115,7 +2359,11 @@ layer {
   bottom: "SCNN_U_30"
   top: "SCNN_U_30/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2148,7 +2396,11 @@ layer {
   bottom: "SCNN_U_29"
   top: "SCNN_U_29/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2181,7 +2433,11 @@ layer {
   bottom: "SCNN_U_28"
   top: "SCNN_U_28/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2214,7 +2470,11 @@ layer {
   bottom: "SCNN_U_27"
   top: "SCNN_U_27/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2247,7 +2507,11 @@ layer {
   bottom: "SCNN_U_26"
   top: "SCNN_U_26/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2280,7 +2544,11 @@ layer {
   bottom: "SCNN_U_25"
   top: "SCNN_U_25/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2313,7 +2581,11 @@ layer {
   bottom: "SCNN_U_24"
   top: "SCNN_U_24/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2346,7 +2618,11 @@ layer {
   bottom: "SCNN_U_23"
   top: "SCNN_U_23/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2379,7 +2655,11 @@ layer {
   bottom: "SCNN_U_22"
   top: "SCNN_U_22/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2412,7 +2692,11 @@ layer {
   bottom: "SCNN_U_21"
   top: "SCNN_U_21/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2445,7 +2729,11 @@ layer {
   bottom: "SCNN_U_20"
   top: "SCNN_U_20/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2478,7 +2766,11 @@ layer {
   bottom: "SCNN_U_19"
   top: "SCNN_U_19/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2511,7 +2803,11 @@ layer {
   bottom: "SCNN_U_18"
   top: "SCNN_U_18/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2544,7 +2840,11 @@ layer {
   bottom: "SCNN_U_17"
   top: "SCNN_U_17/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2577,7 +2877,11 @@ layer {
   bottom: "SCNN_U_16"
   top: "SCNN_U_16/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2610,7 +2914,11 @@ layer {
   bottom: "SCNN_U_15"
   top: "SCNN_U_15/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2643,7 +2951,11 @@ layer {
   bottom: "SCNN_U_14"
   top: "SCNN_U_14/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2676,7 +2988,11 @@ layer {
   bottom: "SCNN_U_13"
   top: "SCNN_U_13/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2709,7 +3025,11 @@ layer {
   bottom: "SCNN_U_12"
   top: "SCNN_U_12/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2742,7 +3062,11 @@ layer {
   bottom: "SCNN_U_11"
   top: "SCNN_U_11/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2775,7 +3099,11 @@ layer {
   bottom: "SCNN_U_10"
   top: "SCNN_U_10/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2808,7 +3136,11 @@ layer {
   bottom: "SCNN_U_9"
   top: "SCNN_U_9/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2841,7 +3173,11 @@ layer {
   bottom: "SCNN_U_8"
   top: "SCNN_U_8/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2874,7 +3210,11 @@ layer {
   bottom: "SCNN_U_7"
   top: "SCNN_U_7/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2907,7 +3247,11 @@ layer {
   bottom: "SCNN_U_6"
   top: "SCNN_U_6/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2940,7 +3284,11 @@ layer {
   bottom: "SCNN_U_5"
   top: "SCNN_U_5/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -2973,7 +3321,11 @@ layer {
   bottom: "SCNN_U_4"
   top: "SCNN_U_4/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -3006,7 +3358,11 @@ layer {
   bottom: "SCNN_U_3"
   top: "SCNN_U_3/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -3039,7 +3395,11 @@ layer {
   bottom: "SCNN_U_2"
   top: "SCNN_U_2/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_U_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 1
@@ -3225,7 +3585,11 @@ layer {
   bottom: "slice2_1"
   top: "SCNN_R_1/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3258,7 +3622,11 @@ layer {
   bottom: "SCNN_R_2"
   top: "SCNN_R_2/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3291,7 +3659,11 @@ layer {
   bottom: "SCNN_R_3"
   top: "SCNN_R_3/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3324,7 +3696,11 @@ layer {
   bottom: "SCNN_R_4"
   top: "SCNN_R_4/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3357,7 +3733,11 @@ layer {
   bottom: "SCNN_R_5"
   top: "SCNN_R_5/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3390,7 +3770,11 @@ layer {
   bottom: "SCNN_R_6"
   top: "SCNN_R_6/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3423,7 +3807,11 @@ layer {
   bottom: "SCNN_R_7"
   top: "SCNN_R_7/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3456,7 +3844,11 @@ layer {
   bottom: "SCNN_R_8"
   top: "SCNN_R_8/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3489,7 +3881,11 @@ layer {
   bottom: "SCNN_R_9"
   top: "SCNN_R_9/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3522,7 +3918,11 @@ layer {
   bottom: "SCNN_R_10"
   top: "SCNN_R_10/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3555,7 +3955,11 @@ layer {
   bottom: "SCNN_R_11"
   top: "SCNN_R_11/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3588,7 +3992,11 @@ layer {
   bottom: "SCNN_R_12"
   top: "SCNN_R_12/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3621,7 +4029,11 @@ layer {
   bottom: "SCNN_R_13"
   top: "SCNN_R_13/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3654,7 +4066,11 @@ layer {
   bottom: "SCNN_R_14"
   top: "SCNN_R_14/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3687,7 +4103,11 @@ layer {
   bottom: "SCNN_R_15"
   top: "SCNN_R_15/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3720,7 +4140,11 @@ layer {
   bottom: "SCNN_R_16"
   top: "SCNN_R_16/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3753,7 +4177,11 @@ layer {
   bottom: "SCNN_R_17"
   top: "SCNN_R_17/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3786,7 +4214,11 @@ layer {
   bottom: "SCNN_R_18"
   top: "SCNN_R_18/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3819,7 +4251,11 @@ layer {
   bottom: "SCNN_R_19"
   top: "SCNN_R_19/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3852,7 +4288,11 @@ layer {
   bottom: "SCNN_R_20"
   top: "SCNN_R_20/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3885,7 +4325,11 @@ layer {
   bottom: "SCNN_R_21"
   top: "SCNN_R_21/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3918,7 +4362,11 @@ layer {
   bottom: "SCNN_R_22"
   top: "SCNN_R_22/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3951,7 +4399,11 @@ layer {
   bottom: "SCNN_R_23"
   top: "SCNN_R_23/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -3984,7 +4436,11 @@ layer {
   bottom: "SCNN_R_24"
   top: "SCNN_R_24/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4017,7 +4473,11 @@ layer {
   bottom: "SCNN_R_25"
   top: "SCNN_R_25/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4050,7 +4510,11 @@ layer {
   bottom: "SCNN_R_26"
   top: "SCNN_R_26/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4083,7 +4547,11 @@ layer {
   bottom: "SCNN_R_27"
   top: "SCNN_R_27/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4116,7 +4584,11 @@ layer {
   bottom: "SCNN_R_28"
   top: "SCNN_R_28/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4149,7 +4621,11 @@ layer {
   bottom: "SCNN_R_29"
   top: "SCNN_R_29/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4182,7 +4658,11 @@ layer {
   bottom: "SCNN_R_30"
   top: "SCNN_R_30/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4215,7 +4695,11 @@ layer {
   bottom: "SCNN_R_31"
   top: "SCNN_R_31/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4248,7 +4732,11 @@ layer {
   bottom: "SCNN_R_32"
   top: "SCNN_R_32/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4281,7 +4769,11 @@ layer {
   bottom: "SCNN_R_33"
   top: "SCNN_R_33/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4314,7 +4806,11 @@ layer {
   bottom: "SCNN_R_34"
   top: "SCNN_R_34/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4347,7 +4843,11 @@ layer {
   bottom: "SCNN_R_35"
   top: "SCNN_R_35/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4380,7 +4880,11 @@ layer {
   bottom: "SCNN_R_36"
   top: "SCNN_R_36/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4413,7 +4917,11 @@ layer {
   bottom: "SCNN_R_37"
   top: "SCNN_R_37/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4446,7 +4954,11 @@ layer {
   bottom: "SCNN_R_38"
   top: "SCNN_R_38/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4479,7 +4991,11 @@ layer {
   bottom: "SCNN_R_39"
   top: "SCNN_R_39/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4512,7 +5028,11 @@ layer {
   bottom: "SCNN_R_40"
   top: "SCNN_R_40/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4545,7 +5065,11 @@ layer {
   bottom: "SCNN_R_41"
   top: "SCNN_R_41/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4578,7 +5102,11 @@ layer {
   bottom: "SCNN_R_42"
   top: "SCNN_R_42/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4611,7 +5139,11 @@ layer {
   bottom: "SCNN_R_43"
   top: "SCNN_R_43/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4644,7 +5176,11 @@ layer {
   bottom: "SCNN_R_44"
   top: "SCNN_R_44/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4677,7 +5213,11 @@ layer {
   bottom: "SCNN_R_45"
   top: "SCNN_R_45/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_R_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4710,7 +5250,11 @@ layer {
   bottom: "SCNN_R_46"
   top: "SCNN_L_46/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4743,7 +5287,11 @@ layer {
   bottom: "SCNN_L_45"
   top: "SCNN_L_45/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4776,7 +5324,11 @@ layer {
   bottom: "SCNN_L_44"
   top: "SCNN_L_44/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4809,7 +5361,11 @@ layer {
   bottom: "SCNN_L_43"
   top: "SCNN_L_43/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4842,7 +5398,11 @@ layer {
   bottom: "SCNN_L_42"
   top: "SCNN_L_42/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4875,7 +5435,11 @@ layer {
   bottom: "SCNN_L_41"
   top: "SCNN_L_41/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4908,7 +5472,11 @@ layer {
   bottom: "SCNN_L_40"
   top: "SCNN_L_40/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4941,7 +5509,11 @@ layer {
   bottom: "SCNN_L_39"
   top: "SCNN_L_39/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -4974,7 +5546,11 @@ layer {
   bottom: "SCNN_L_38"
   top: "SCNN_L_38/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5007,7 +5583,11 @@ layer {
   bottom: "SCNN_L_37"
   top: "SCNN_L_37/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5040,7 +5620,11 @@ layer {
   bottom: "SCNN_L_36"
   top: "SCNN_L_36/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5073,7 +5657,11 @@ layer {
   bottom: "SCNN_L_35"
   top: "SCNN_L_35/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5106,7 +5694,11 @@ layer {
   bottom: "SCNN_L_34"
   top: "SCNN_L_34/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5139,7 +5731,11 @@ layer {
   bottom: "SCNN_L_33"
   top: "SCNN_L_33/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5172,7 +5768,11 @@ layer {
   bottom: "SCNN_L_32"
   top: "SCNN_L_32/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5205,7 +5805,11 @@ layer {
   bottom: "SCNN_L_31"
   top: "SCNN_L_31/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5238,7 +5842,11 @@ layer {
   bottom: "SCNN_L_30"
   top: "SCNN_L_30/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5271,7 +5879,11 @@ layer {
   bottom: "SCNN_L_29"
   top: "SCNN_L_29/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5304,7 +5916,11 @@ layer {
   bottom: "SCNN_L_28"
   top: "SCNN_L_28/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5337,7 +5953,11 @@ layer {
   bottom: "SCNN_L_27"
   top: "SCNN_L_27/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5370,7 +5990,11 @@ layer {
   bottom: "SCNN_L_26"
   top: "SCNN_L_26/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5403,7 +6027,11 @@ layer {
   bottom: "SCNN_L_25"
   top: "SCNN_L_25/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5436,7 +6064,11 @@ layer {
   bottom: "SCNN_L_24"
   top: "SCNN_L_24/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5469,7 +6101,11 @@ layer {
   bottom: "SCNN_L_23"
   top: "SCNN_L_23/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5502,7 +6138,11 @@ layer {
   bottom: "SCNN_L_22"
   top: "SCNN_L_22/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5535,7 +6175,11 @@ layer {
   bottom: "SCNN_L_21"
   top: "SCNN_L_21/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5568,7 +6212,11 @@ layer {
   bottom: "SCNN_L_20"
   top: "SCNN_L_20/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5601,7 +6249,11 @@ layer {
   bottom: "SCNN_L_19"
   top: "SCNN_L_19/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5634,7 +6286,11 @@ layer {
   bottom: "SCNN_L_18"
   top: "SCNN_L_18/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5667,7 +6323,11 @@ layer {
   bottom: "SCNN_L_17"
   top: "SCNN_L_17/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5700,7 +6360,11 @@ layer {
   bottom: "SCNN_L_16"
   top: "SCNN_L_16/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5733,7 +6397,11 @@ layer {
   bottom: "SCNN_L_15"
   top: "SCNN_L_15/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5766,7 +6434,11 @@ layer {
   bottom: "SCNN_L_14"
   top: "SCNN_L_14/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5799,7 +6471,11 @@ layer {
   bottom: "SCNN_L_13"
   top: "SCNN_L_13/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5832,7 +6508,11 @@ layer {
   bottom: "SCNN_L_12"
   top: "SCNN_L_12/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5865,7 +6545,11 @@ layer {
   bottom: "SCNN_L_11"
   top: "SCNN_L_11/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5898,7 +6582,11 @@ layer {
   bottom: "SCNN_L_10"
   top: "SCNN_L_10/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5931,7 +6619,11 @@ layer {
   bottom: "SCNN_L_9"
   top: "SCNN_L_9/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5964,7 +6656,11 @@ layer {
   bottom: "SCNN_L_8"
   top: "SCNN_L_8/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -5997,7 +6693,11 @@ layer {
   bottom: "SCNN_L_7"
   top: "SCNN_L_7/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -6030,7 +6730,11 @@ layer {
   bottom: "SCNN_L_6"
   top: "SCNN_L_6/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -6063,7 +6767,11 @@ layer {
   bottom: "SCNN_L_5"
   top: "SCNN_L_5/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -6096,7 +6804,11 @@ layer {
   bottom: "SCNN_L_4"
   top: "SCNN_L_4/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -6129,7 +6841,11 @@ layer {
   bottom: "SCNN_L_3"
   top: "SCNN_L_3/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
@@ -6162,7 +6878,11 @@ layer {
   bottom: "SCNN_L_2"
   top: "SCNN_L_2/message"
   type: "Convolution"
-  param { lr_mult: 1 decay_mult: 1 }
+  param { 
+    name: "SCNN_L_w"
+    lr_mult: 1 
+    decay_mult: 1 
+  }
   convolution_param {
     num_output: 128
     kernel_h: 9
